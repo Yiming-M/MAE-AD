@@ -1,3 +1,11 @@
+# ignore the data
+data/
+
+# ignore the checkpoint
+checkpoints/*/*/auc_roc*.pth
+checkpoints/*/*/auc_pr*.pth
+checkpoints/*/*/checkpoint.pth
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
